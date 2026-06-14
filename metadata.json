@@ -1,0 +1,6 @@
+{
+  "name": "Network-Based Quiz System",
+  "description": "DCCN Course Semester Project showcasing Client-Server HTTP, TCP/IP packet sniffer logs, persistent SQLite records, and Socket.IO multi-user presence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

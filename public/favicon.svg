@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Round containment border, blending smoothly to form the icon's primary grid structure -->
+  <rect x="16" y="16" width="480" height="480" rx="96" ry="96" fill="none" stroke="#2bd980" stroke-width="24" />
+
+  <!-- Quadrant Backgrounds -->
+  <!-- Top Left - Q (Pale Mint BG) -->
+  <rect x="28" y="28" width="220" height="220" rx="44" fill="#e3f9f0" stroke="#2bd980" stroke-width="16" />
+  
+  <!-- Top Right - U (Pale Yellow BG) -->
+  <rect x="264" y="28" width="220" height="220" rx="44" fill="#fff5de" stroke="#2bd980" stroke-width="16" />
+  
+  <!-- Bottom Left - I (Pale Pink BG) -->
+  <rect x="28" y="264" width="220" height="220" rx="44" fill="#ffe4ea" stroke="#2bd980" stroke-width="16" />
+  
+  <!-- Bottom Right - Z (Pale Teal BG) -->
+  <rect x="264" y="264" width="220" height="220" rx="44" fill="#def7eb" stroke="#2bd980" stroke-width="16" />
+
+  <!-- Precise Vector Drawing of Letters (highly compatible across all devices and resolutions) -->
+  <!-- Letter Q: Rounded circle with elegant tail -->
+  <circle cx="138" cy="130" r="40" stroke="#2bd980" stroke-width="22" fill="none" stroke-linecap="round" />
+  <path d="M 162,154 L 180,172" stroke="#2bd980" stroke-width="22" stroke-linecap="round" />
+
+  <!-- Letter U: Symmetrical vertical pillars connected by dynamic arc -->
+  <path d="M 344,95 L 344,134 A 30,30 0 0 0 404,134 L 404,95" stroke="#2bd980" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+  <!-- Letter I: Balanced center pillar -->
+  <path d="M 138,334 L 138,414" stroke="#2bd980" stroke-width="22" stroke-linecap="round" />
+
+  <!-- Letter Z: Connected linear path with rounded corners -->
+  <path d="M 344,334 L 404,334 L 344,414 L 404,414" stroke="#2bd980" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz System</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Prevent other libraries (like formdata-polyfill) from crashing when trying to overwrite window.fetch
+      (function() {
+        try {
+          const originalFetch = window.fetch || globalThis.fetch;
+          const descriptor = {
+            get: function() { return originalFetch; },
+            set: function(val) { console.warn('[DCCN Polyfill] Prevented overriding read-only fetch.'); },
+            configurable: true,
+            enumerable: true
+          };
+          Object.defineProperty(window, 'fetch', descriptor);
+          if (typeof globalThis !== 'undefined') {
+            Object.defineProperty(globalThis, 'fetch', descriptor);
+          }
+        } catch (e) {
+          console.warn('[DCCN Polyfill] Failed to apply fetch safety wrapper:', e);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

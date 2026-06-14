@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "student1",
+      "password": "student123",
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "username": "student2",
+      "password": "student123",
+      "role": "student"
+    },
+    {
+      "id": 4,
+      "username": "a",
+      "password": "b",
+      "role": "student"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "TCP/IP vs OSI model Quiz",
+      "time_limit": 120
+    },
+    {
+      "id": 2,
+      "title": "Network Topology & IP Routing Quiz",
+      "time_limit": 185
+    },
+    {
+      "id": 3,
+      "title": "abc",
+      "time_limit": 900,
+      "start_time": "2026-06-14T18:36",
+      "end_time": "2026-06-23T18:36"
+    },
+    {
+      "id": 4,
+      "title": "xyz",
+      "time_limit": 60,
+      "start_time": "2026-06-14T19:10",
+      "end_time": "2026-06-25T19:10"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "quiz_id": 1,
+      "question": "Which layer of the TCP/IP model corresponds directly to the Application, Presentation, and Session layers of the OSI model?",
+      "option_a": "Network Layer",
+      "option_b": "Transport Layer",
+      "option_c": "Application Layer",
+      "option_d": "Link Layer",
+      "correct_answer": "C"
+    },
+    {
+      "id": 2,
+      "quiz_id": 1,
+      "question": "What is the standard port number for secure HTTP (HTTPS) communication over TCP/IP?",
+      "option_a": "80",
+      "option_b": "443",
+      "option_c": "21",
+      "option_d": "8080",
+      "correct_answer": "B"
+    },
+    {
+      "id": 3,
+      "quiz_id": 1,
+      "question": "Which DCCN protocol uses a 3-Way Handshake to establish a reliable end-to-end connection?",
+      "option_a": "UDP",
+      "option_b": "ICMP",
+      "option_c": "IP",
+      "option_d": "TCP",
+      "correct_answer": "D"
+    },
+    {
+      "id": 4,
+      "quiz_id": 2,
+      "question": "Which IP address represents a standard loopback address used for local network diagnostics?",
+      "option_a": "192.168.1.1",
+      "option_b": "127.0.0.1",
+      "option_c": "10.0.0.1",
+      "option_d": "255.255.255.255",
+      "correct_answer": "B"
+    },
+    {
+      "id": 5,
+      "quiz_id": 2,
+      "question": "In a subnetwork with the subnet mask 255.255.255.0 (/24), how many usable IP addresses are available for clients?",
+      "option_a": "256",
+      "option_b": "254",
+      "option_c": "512",
+      "option_d": "128",
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "quiz_id": 3,
+      "question": "123",
+      "option_a": "4",
+      "option_b": "5",
+      "option_c": "6",
+      "option_d": "7",
+      "correct_answer": "A"
+    },
+    {
+      "id": 7,
+      "quiz_id": 3,
+      "question": "abc",
+      "option_a": "d",
+      "option_b": "e",
+      "option_c": "f",
+      "option_d": "g",
+      "correct_answer": "A"
+    },
+    {
+      "id": 8,
+      "quiz_id": 4,
+      "question": "abc",
+      "option_a": "d",
+      "option_b": "e",
+      "option_c": "f",
+      "option_d": "g",
+      "correct_answer": "A"
+    },
+    {
+      "id": 9,
+      "quiz_id": 3,
+      "question": "asnzxb",
+      "option_a": "asa",
+      "option_b": "sja",
+      "option_c": "nbsa",
+      "option_d": "sa",
+      "correct_answer": "A"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "student_id": 4,
+      "quiz_id": 3,
+      "score": 3,
+      "total_questions": 3,
+      "percentage": 100,
+      "completed_at": "2026-06-14T16:16:05.880Z"
+    },
+    {
+      "id": 2,
+      "student_id": 4,
+      "quiz_id": 4,
+      "score": 0,
+      "total_questions": 1,
+      "percentage": 0,
+      "completed_at": "2026-06-14T16:16:19.940Z"
+    }
+  ]
+}
